@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 10%;
+}
+.box {
+    border: dashed black 1px;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    width: 300px;
+}

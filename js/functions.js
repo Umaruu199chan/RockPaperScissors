@@ -3,11 +3,16 @@ function getComputerChoice() {
 
     switch (generatedNum) {
         case 1:
-            return 'rock';
+            return "Rock";
         case 2:
-            return 'paper';
+            return "Paper";
         case 3:
-            return'scissors';
+            return "Scissors";
     }
 }
 console.log(getComputerChoice());
+function getHumanChoice() {
+    const inputText = prompt("Please enter your choice");
+    return inputText;
+}
+console.log(getHumanChoice());
